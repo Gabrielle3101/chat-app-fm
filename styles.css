@@ -9,7 +9,6 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
     background-color: hsl(270, 20%, 96%);
     background-position: top left, right bottom;
     background-repeat: no-repeat, no-repeat;
@@ -29,7 +28,7 @@ body {
     background-color: white;
     padding: 10px;
     position: relative;
-    height: 71vh;
+    height: 75vh;
     border-radius: 30px;
     box-shadow: 0 0 10px black;
     z-index: 3;
@@ -235,11 +234,11 @@ h1 {
 
 .normal-bg {
     height: 95vh;
-    width: 500px;
+    width: 300px;
     right: -100px;
-    top: 120px;
+    top: 0px;
     position: absolute;
-    border-radius: 200px 200px 0 0;
+    border-radius: 200px 0 0 0;
     background-color: hsl(289, 100%, 72%);
     opacity: 10%;
 }
@@ -254,10 +253,6 @@ h1 {
     .all {
         flex-direction: column;
         height: 200vh;
-    }
-
-    body {
-        overflow: scroll;
     }
 
     .grad-bg {
@@ -288,7 +283,7 @@ h1 {
     }
 
     .attribution {
-        bottom: -40%;
+        bottom: -30%;
     }
 
     h3 {
