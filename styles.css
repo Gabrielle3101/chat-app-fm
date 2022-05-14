@@ -1,0 +1,363 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: hsl(270, 20%, 96%);
+    background-position: top left, right bottom;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    height: 71vh;
+    border-radius: 30px;
+    box-shadow: 0 0 10px black;
+    z-index: 3;
+}
+
+.oval {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    top: 1px;
+    border-radius: 18px;
+    width: 180px;
+}
+.profile-bar {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    width: 330px;
+    border-radius: 30px 30px 10px 10px;
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%) );
+}
+
+.left-arrow{
+    margin-left: 10px;
+}
+
+.profile-pic img {
+    width: 50px;
+    margin: 10px;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+h3 {
+    color: white;
+    margin: 0;
+}
+
+span{
+    color: white;
+    opacity: 50%;
+}
+
+.options {
+    margin-left: 70px;
+}
+
+.chat-screen {
+    height: 90%;
+    border-radius: 0px 0px 30px 30px;
+    background-color: hsl(270, 20%, 96%);
+}
+
+.left-bubble {
+    color: hsl(289, 45%, 55%);
+    font-size: 12px;
+    margin: 10px;
+    width: 200px;
+    height: 5vh;
+    border-radius: 20px 20px 20px 5px;
+    padding: 1px;
+    background-color: hsla(289, 100%, 90%, 0.212);
+}
+
+.left-bubble p {
+    margin-left: 10px;
+}
+
+.dog-pics {
+    display: flex;
+    margin-left: 35%;
+}
+
+.dog1 img, .dog2 img, .dog3 img {
+    width: 60px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.right-bubble, .right-bubble1 {
+    background-color: white;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 20px 20px 10px 20px;
+    margin-left: 37%;
+    font-size: 12px;
+}
+
+.right-bubble {
+    width: 180px;
+    height: 5vh;
+    padding-left: 15px;
+}
+
+.long {
+    height: 7vh;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: absolute;
+    bottom: 0%;
+    z-index: 50;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.right-bubble1 {
+    width: 100px;
+    margin-left: 200px;
+    padding-left: 15px;
+    height: 30px;
+}
+
+.offer1, .offer2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 10px; 
+    width: 280px; 
+    height: 50px;
+    color: white;
+    border-radius: 20px 20px 20px 10px;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+}
+
+.st {
+ display: flex;
+ align-items: center;
+}
+
+.circle {
+    margin: 10px;
+    opacity: 8%;
+}
+
+.time {
+    opacity: 57%;
+}
+
+.price{
+    margin-right: 10px;
+}
+
+.input {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 50px;
+    height:60px;
+    margin: 10px;
+}
+
+.input span {
+    color: black;
+    margin: 30px;
+}
+
+.send-btn {
+    background-color: hsl(271, 36%, 24%);
+    border-radius: 50%;
+    width: 50px;
+}
+
+.send-btn img {
+    opacity: 40%;
+    padding: 15px 20px;
+    width: 10px;
+}
+
+.write-up {
+    width: 33%;
+    padding: 50px;
+    z-index: 6;
+    position: relative;
+}
+
+.write-up p {
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    opacity: 40%;
+}
+
+h1 {
+    font-size: 40px;
+    color: hsl(271, 36%, 24%);
+}
+
+.grad-bg{
+    height: 95vh;
+    width: 500px;
+    left: -20px;
+    top: -150px;
+    position: absolute;
+    border-radius: 0 0 200px 200px;
+    background-image: linear-gradient(to bottom, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+}
+
+.normal-bg {
+    height: 95vh;
+    width: 500px;
+    right: -100px;
+    top: 120px;
+    position: absolute;
+    border-radius: 200px 200px 0 0;
+    background-color: hsl(289, 100%, 72%);
+    opacity: 10%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container{
+        height: 85vh;
+    }
+}
+
+@media only screen and (max-width: 702px) {
+    .all {
+        flex-direction: column;
+        height: 200vh;
+    }
+
+    body {
+        overflow: scroll;
+    }
+
+    .grad-bg {
+        top: 100px;
+        left: -200px;
+    }
+
+    .container {
+        top: 150px;
+    }
+    
+    .write-up{
+        padding: 0;
+        margin: 0;
+        width: 80vw;
+        text-align: center;
+        bottom: -200px;
+    }
+
+    .normal-bg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 384px) {
+    .write-up {
+        width: 90vw;
+    }
+
+    .attribution {
+        bottom: -40%;
+    }
+
+    h3 {
+        width: 132px;
+    }
+
+    .oval{
+        height: 10px;
+    }
+
+    .dog-pics {
+        margin-left: 80px;
+    }
+
+    .right-bubble {
+        margin-left: 90px;
+    }
+
+    .right-bubble1 {
+        margin-left: 170px;
+    }
+
+    .offer1, .offer2 {
+        width: 250px;
+    }
+
+    .options img {
+        height: 20px;
+        margin-left: 0px;
+        position: absolute;
+        right: 20px;
+    }
+
+    .container {
+        width: 80vw;
+    }
+
+    .profile-bar, .chat-screen {
+        width: 79vw;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .msg span {
+        margin: 0;
+        width: 200px;
+    }
+
+    .offer1, .offer2 {
+        width: 200px;
+    }
+
+    .oval {
+        width: 130px;
+    }
+
+    .dog-pics {
+        margin-left: 30px;
+    }
+
+    .right-bubble {
+        margin-left: 40px;
+    }
+
+    .time {
+        font-size: 13px;
+    }
+
+    .right-bubble1 {
+        margin-left: 120px;
+    }
+}
