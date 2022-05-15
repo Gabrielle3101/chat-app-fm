@@ -235,7 +235,7 @@ h1 {
 .normal-bg {
     height: 95vh;
     width: 300px;
-    right: -100px;
+    right: 0px;
     top: 0px;
     position: absolute;
     border-radius: 200px 0 0 0;
@@ -283,7 +283,7 @@ h1 {
     }
 
     .attribution {
-        bottom: -30%;
+        bottom: -100%;
     }
 
     h3 {
@@ -356,3 +356,56 @@ h1 {
         margin-left: 120px;
     }
 }
+
+
+@media only screen and (max-height: 700px) {
+    body {
+        height: 150vh;
+    }
+    .container {
+        height: 50%;
+    }
+
+    .right-bubble, .right-bubble1, .left-bubble{
+        height: auto;
+    }
+
+    .input {
+        height: 40px;
+    }
+
+    .offer1, .offer2 {
+        padding: 0;
+    }
+}
+
+
+@media only screen and (max-height: 650px){
+    .container {
+        height: 55%;
+    }
+}
+@media only screen and (max-height: 570px){
+    .container{
+        height: 60%;
+    }
+
+    .all {
+        height: 160vh;
+    }
+}
+@media only screen and (max-height: 550px){
+    .container {
+        height: 65%;
+    }
+}
+@media only screen and (max-height: 525px){
+    .container {
+        height: 70%;
+    }
+}
+@media only screen and (max-height: 650px)
+@media only screen and (max-height: 650px)
+@media only screen and (max-height: 650px)
+@media only screen and (max-height: 650px)
+@media only screen and (max-height: 650px)
