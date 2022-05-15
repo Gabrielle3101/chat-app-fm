@@ -379,44 +379,7 @@ h1 {
     }
 }
 
-/*
-@media only screen and (max-height: 650px){
-    .container {
-        height: 55%;
-    }
-}
- 
-@media only screen and (max-height: 610px){
-    .container{
-        height: 59%;
-    }
-}
 
-@media only screen and (max-height: 570px){
-    .container{
-        height: 60%;
-    }
-
-    /* .all {
-        height: 160vh;
-    } */
-}
-@media only screen and (max-height: 550px){
-    .container {
-        height: 65%;
-    }
-}
-@media only screen and (max-height: 525px){
-    .container {
-        height: 70%;
-    }
-}
-
-@media only screen and (max-height: 500px){
-    .container {
-        height: 75%;
-    }
-} */
 @media only screen and (max-height: 650px)
 @media only screen and (max-height: 650px)
 @media only screen and (max-height: 650px)
