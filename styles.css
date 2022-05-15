@@ -363,7 +363,7 @@ h1 {
         height: 180vh;
     }
     .container {
-        height: 50%;
+        height: 100%;
     }
 
     .right-bubble, .right-bubble1, .left-bubble{
@@ -379,13 +379,13 @@ h1 {
     }
 }
 
-
+/*
 @media only screen and (max-height: 650px){
     .container {
         height: 55%;
     }
 }
-
+ 
 @media only screen and (max-height: 610px){
     .container{
         height: 59%;
@@ -416,7 +416,7 @@ h1 {
     .container {
         height: 75%;
     }
-}
+} */
 @media only screen and (max-height: 650px)
 @media only screen and (max-height: 650px)
 @media only screen and (max-height: 650px)
