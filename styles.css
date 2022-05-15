@@ -6,6 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
     margin: 0;
     width: 100vw;
     height: 100vh;
@@ -256,7 +257,7 @@ h1 {
     }
 
     .grad-bg {
-        top: 100px;
+        top: 0px;
         left: -200px;
     }
 
